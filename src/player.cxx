@@ -6,7 +6,7 @@
 #include "model.hxx"
 
 Player::Player(Position pos)
-        : lives_(3),
+        : lives_(4),
           radius_(grid_size/2),
           pos_(pos),
           velocity_({0,0})
